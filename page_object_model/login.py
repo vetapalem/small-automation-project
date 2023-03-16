@@ -10,8 +10,8 @@ class logdata:
     user_password_id=tu.uesr_password_id()
     login_but=r"//*[contain(text(),'Log in')]"
     @staticmethod
-    def ping():
-        return tt.sleep(5)
+    def ping(): 
+        return tt.sleep(5) #sleep (5seconds..)
     def __init__(self,drive):
         # driver
         self.ck=drive
