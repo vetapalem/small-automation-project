@@ -1,6 +1,6 @@
-from selenium import webdriver as wv
-from selenium.webdriver.chrome.service import Service
-from webdriver_manager.chrome import ChromeDriverManager as ch
+from selenium import webdriver as wv #web driver
+from selenium.webdriver.chrome.service import Service #service object
+from webdriver_manager.chrome import ChromeDriverManager as ch #chrime driver 
 import pytest as po
 
 @po.fixture
