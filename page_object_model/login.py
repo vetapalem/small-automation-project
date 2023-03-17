@@ -33,7 +33,7 @@ class logdata:
             self.id.send_keys(logdata.credintails['password'])
             self.ma.find_element(By.XPATH,self.login_but).click()
         except Exception:
-            self.ck.get_screenshot_as_file(r'D:\testing_pro1\project_level\sample_project\reports\screenshots\failure.png')
+            self.ck.get_screenshot_as_file(r'..\screenshots\failure.png')
            
             
 
