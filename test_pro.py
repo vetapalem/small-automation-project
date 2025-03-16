@@ -1,5 +1,5 @@
 import sys
-# sys.path.append(r'D:\testing_pro1\project_level\sample_project\page_object_model')
+# sys.path.append(r'path')
 # from page_object_model.login import logdata as lo
 from page_object_model.login import logdata as lo
 # for a ,b in sys.modules.items():
